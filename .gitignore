@@ -1,6 +1,6 @@
 HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
+!.mvn/**
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -11,4 +11,10 @@ target/
 *.iml
 *.ipr
 
+
+security-learn1/.mvn/
+security-learn2/.mvn/
+security-learn2/src/main/resources/application-dev.yml
+security-learn3/.mvn/
+security-learn3/src/main/resources/application-dev.yml
 
