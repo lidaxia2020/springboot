@@ -1,7 +1,7 @@
-package com.security.learn1.service.impl;
+package com.security.learn4.service.impl;
 
-import com.security.learn1.model.AuthUser;
-import com.security.learn1.service.AuthUserService;
+import com.security.learn4.model.AuthUser;
+import com.security.learn4.service.AuthUserService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 

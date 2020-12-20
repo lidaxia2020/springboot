@@ -1,6 +1,6 @@
-package com.security.learn1.service;
+package com.security.learn4.service;
 
-import com.security.learn1.model.AuthUser;
+import com.security.learn4.model.AuthUser;
 
 /**
  * 用户服务类

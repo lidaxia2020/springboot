@@ -27,6 +27,7 @@
         <module>security-learn1</module>
         <module>security-learn2</module>
         <module>security-learn3</module>
+        <module>security-learn4</module>
     </modules>
 
     <dependencies>

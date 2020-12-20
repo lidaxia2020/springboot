@@ -1,4 +1,4 @@
-package com.security.learn1.model;
+package com.security.learn4.model;
 
 import java.util.List;
 

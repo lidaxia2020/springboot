@@ -1,4 +1,4 @@
-package com.security.learn1.controller;
+package com.security.learn4.controller;
 
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -14,6 +14,8 @@ import java.security.Principal;
  */
 @RestController
 public class UserController {
+
+
 
     /**
      * 获取登录后的Principal（需要登录）

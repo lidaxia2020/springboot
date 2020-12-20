@@ -1,4 +1,4 @@
-package com.security.learn1.service.impl;
+package com.security.learn4.service.impl;
 
 /**
  * @author lidaxia
@@ -6,8 +6,8 @@ package com.security.learn1.service.impl;
  * @date 2020/11/21 10:28
  */
 
-import com.security.learn1.model.AuthUser;
-import com.security.learn1.service.AuthUserService;
+import com.security.learn4.model.AuthUser;
+import com.security.learn4.service.AuthUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

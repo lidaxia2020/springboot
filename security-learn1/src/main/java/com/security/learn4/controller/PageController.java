@@ -1,4 +1,4 @@
-package com.security.learn1.controller;
+package com.security.learn4.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
