@@ -28,6 +28,7 @@
         <module>security-learn2</module>
         <module>security-learn3</module>
         <module>security-learn4</module>
+        <module>springboot-aop</module>
     </modules>
 
     <dependencies>

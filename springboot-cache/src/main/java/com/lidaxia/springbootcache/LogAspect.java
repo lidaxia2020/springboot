@@ -1,4 +1,4 @@
-springboot-aoppackage com.lidaxia.springbootaop;
+package com.lidaxia.springbootcache;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -22,7 +22,7 @@ public class LogAspect {
     /**
      * Pointcut 切入点
      */
-    @Pointcut("execution(public * com.lidaxia.springbootaop.SpringbootAopApplication.index(..))")
+    @Pointcut("execution(public * com.lidaxia.springbootcache.SpringbootCacheApplication.index(..))")
     public void webLog(){}
 
     /**
