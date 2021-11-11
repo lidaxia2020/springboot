@@ -8,17 +8,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>springboot-aop</artifactId>
+    <artifactId>springboot-https</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-aop</name>
-    <description>SpringBoot系列——aop 面向切面</description>
+    <name>springboot-https</name>
+    <description>SpringBoot系列——启用https</description>
 
     <dependencies>
-        <!--aop 面向切面-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
+
     </dependencies>
 
 </project>

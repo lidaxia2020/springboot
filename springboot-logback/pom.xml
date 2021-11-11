@@ -8,16 +8,22 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>springboot-aop</artifactId>
+    <artifactId>springboot-logback</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-aop</name>
-    <description>SpringBoot系列——aop 面向切面</description>
+    <name>springboot-logback</name>
+    <description>SpringBoot系列——Logback日志，输出到文件以及实时输出到web页面</description>
 
     <dependencies>
-        <!--aop 面向切面-->
+        <!-- springboot websocket -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
+        <!-- thymeleaf模板 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
     </dependencies>
 

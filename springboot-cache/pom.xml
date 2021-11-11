@@ -8,10 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>springboot-aop</artifactId>
+    <artifactId>springboot-cache</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-aop</name>
-    <description>SpringBoot系列——aop 面向切面</description>
+    <name>springboot-cache</name>
+    <description>SpringBoot系列——cache</description>
 
     <dependencies>
         <!--添加springdata-cache依赖 -->

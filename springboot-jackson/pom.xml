@@ -8,16 +8,21 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>springboot-aop</artifactId>
+    <artifactId>springboot-jackson</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-aop</name>
-    <description>SpringBoot系列——aop 面向切面</description>
+    <name>springboot-jackson</name>
+    <description>SpringBoot系列——jackson</description>
 
     <dependencies>
-        <!--aop 面向切面-->
+        <!-- springboot web(MVC)-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- thymeleaf模板 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
     </dependencies>
 

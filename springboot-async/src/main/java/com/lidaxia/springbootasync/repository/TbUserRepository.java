@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
 /**
- * @author lijiannan
+ * @author lidaxia
  * @desc
  * @date 2021/11/5 17:59（
  */
