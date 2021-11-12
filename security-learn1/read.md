@@ -1,2 +1,0 @@
-- 要想使用Spring Security框架，配置类需要继承WebSecurityConfigurerAdapter类，并通过注解@EnableWebSecurity来启用Spring Security
-- 查询用户信息并封装成认证用户对象的过程是在UserDetailsService接口的实现类（需要用户自己实现）中完成的

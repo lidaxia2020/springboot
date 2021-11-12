@@ -8,9 +8,10 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.lidaxia</groupId>
     <artifactId>springboot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>springboot</name>
     <description>Spring Boot 学习整合</description>
     <packaging>pom</packaging>
@@ -20,14 +21,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+
+        <lidaxia.common>1.0.0-SNAPSHOT</lidaxia.common>
     </properties>
 
     <modules>
         <module>common</module>
-        <module>security-learn1</module>
-        <module>security-learn2</module>
-        <module>security-learn3</module>
-        <module>security-learn4</module>
         <module>springboot-aop</module>
         <module>springboot-async</module>
         <module>springboot-cors</module>

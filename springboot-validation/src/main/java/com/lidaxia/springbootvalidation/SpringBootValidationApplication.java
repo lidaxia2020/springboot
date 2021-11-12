@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @desc
  * @date 2021/11/11 15:40（
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages="com.lidaxia")
 public class SpringBootValidationApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootValidationApplication.class, args);
