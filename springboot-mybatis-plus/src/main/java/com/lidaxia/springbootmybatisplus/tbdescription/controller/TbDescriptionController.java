@@ -1,9 +1,5 @@
 package com.lidaxia.springbootmybatisplus.tbdescription.controller;
 
-import cn.huanzi.qch.springbootmybatisplus.common.controller.CommonController;
-import cn.huanzi.qch.springbootmybatisplus.tbdescription.entity.TbDescription;
-import cn.huanzi.qch.springbootmybatisplus.tbdescription.entity.TbDescriptionVo;
-import cn.huanzi.qch.springbootmybatisplus.tbdescription.service.TbDescriptionService;
 import com.lidaxia.springbootmybatisplus.common.controller.CommonController;
 import com.lidaxia.springbootmybatisplus.tbdescription.entity.TbDescription;
 import com.lidaxia.springbootmybatisplus.tbdescription.entity.TbDescriptionVo;

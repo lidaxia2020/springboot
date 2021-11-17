@@ -12,6 +12,7 @@ import java.util.Date;
  */
 @Data
 public class UserVoByMvc implements Serializable {
+
     private String username;
     private String password;
     private Date createDate;

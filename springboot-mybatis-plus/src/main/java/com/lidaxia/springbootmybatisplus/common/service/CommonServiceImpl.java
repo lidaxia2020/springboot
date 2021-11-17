@@ -1,10 +1,5 @@
 package com.lidaxia.springbootmybatisplus.common.service;
 
-import cn.huanzi.qch.springbootmybatisplus.common.entity.PageCondition;
-import cn.huanzi.qch.springbootmybatisplus.common.entity.PageInfo;
-import cn.huanzi.qch.springbootmybatisplus.common.entity.Result;
-import cn.huanzi.qch.springbootmybatisplus.common.mapper.CommonMapper;
-import cn.huanzi.qch.springbootmybatisplus.util.CopyUtil;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -12,6 +7,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lidaxia.springbootmybatisplus.common.entity.PageCondition;
 import com.lidaxia.springbootmybatisplus.common.entity.PageInfo;
 import com.lidaxia.springbootmybatisplus.common.entity.Result;
+import com.lidaxia.springbootmybatisplus.common.mapper.CommonMapper;
 import com.lidaxia.springbootmybatisplus.util.CopyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

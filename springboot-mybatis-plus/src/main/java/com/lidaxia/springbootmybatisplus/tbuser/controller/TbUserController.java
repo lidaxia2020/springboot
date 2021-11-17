@@ -1,9 +1,9 @@
 package com.lidaxia.springbootmybatisplus.tbuser.controller;
 
-import cn.huanzi.qch.springbootmybatisplus.common.controller.CommonController;
-import cn.huanzi.qch.springbootmybatisplus.tbuser.entity.TbUser;
-import cn.huanzi.qch.springbootmybatisplus.tbuser.entity.TbUserVo;
-import cn.huanzi.qch.springbootmybatisplus.tbuser.service.TbUserService;
+import com.lidaxia.springbootmybatisplus.common.controller.CommonController;
+import com.lidaxia.springbootmybatisplus.tbuser.entity.TbUser;
+import com.lidaxia.springbootmybatisplus.tbuser.entity.TbUserVo;
+import com.lidaxia.springbootmybatisplus.tbuser.service.TbUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/tbUser/")
-public class TbUserController extends CommonController<TbUserVo,TbUser> {
+public class TbUserController extends CommonController<TbUserVo, TbUser> {
 
     @Autowired
     private TbUserService tbUserService;

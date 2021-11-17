@@ -45,7 +45,8 @@ public class LoggingWSServer {
     public void onOpen(Session session) {
         //添加到集合中
         sessionMap.put(session.getId(), session);
-        lengthMap.put(session.getId(), 1);//默认从第一行开始
+        //默认从第一行开始
+        lengthMap.put(session.getId(), 1);
 
         //获取日志信息
         new Thread(() -> {

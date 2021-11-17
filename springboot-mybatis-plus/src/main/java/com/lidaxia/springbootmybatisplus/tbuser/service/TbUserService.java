@@ -1,8 +1,9 @@
 package com.lidaxia.springbootmybatisplus.tbuser.service;
 
-import cn.huanzi.qch.springbootmybatisplus.common.service.CommonService;
-import cn.huanzi.qch.springbootmybatisplus.tbuser.entity.TbUser;
-import cn.huanzi.qch.springbootmybatisplus.tbuser.entity.TbUserVo;
+
+import com.lidaxia.springbootmybatisplus.common.service.CommonService;
+import com.lidaxia.springbootmybatisplus.tbuser.entity.TbUser;
+import com.lidaxia.springbootmybatisplus.tbuser.entity.TbUserVo;
 
 /**
  * <p>
@@ -12,6 +13,6 @@ import cn.huanzi.qch.springbootmybatisplus.tbuser.entity.TbUserVo;
  * @author huanzi-qch
  * @since 2020-08-25
  */
-public interface TbUserService  extends CommonService<TbUserVo,TbUser> {
+public interface TbUserService  extends CommonService<TbUserVo, TbUser> {
 
 }

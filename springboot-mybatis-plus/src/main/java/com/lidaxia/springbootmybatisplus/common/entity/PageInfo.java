@@ -1,7 +1,7 @@
 package com.lidaxia.springbootmybatisplus.common.entity;
 
-import cn.huanzi.qch.springbootmybatisplus.util.CopyUtil;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.lidaxia.springbootmybatisplus.util.CopyUtil;
 import lombok.Data;
 
 import java.util.List;

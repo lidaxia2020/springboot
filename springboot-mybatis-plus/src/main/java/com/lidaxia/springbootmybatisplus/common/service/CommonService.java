@@ -1,7 +1,5 @@
 package com.lidaxia.springbootmybatisplus.common.service;
 
-import cn.huanzi.qch.springbootmybatisplus.common.entity.PageInfo;
-import cn.huanzi.qch.springbootmybatisplus.common.entity.Result;
 import com.lidaxia.springbootmybatisplus.common.entity.PageInfo;
 import com.lidaxia.springbootmybatisplus.common.entity.Result;
 

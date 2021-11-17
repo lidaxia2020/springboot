@@ -1,7 +1,7 @@
 package com.lidaxia.common.exception;
 
 /**
- * @author lijiannan
+ * @author lidaxia
  * @desc
  * @date 2021/11/12 10:13（
  */

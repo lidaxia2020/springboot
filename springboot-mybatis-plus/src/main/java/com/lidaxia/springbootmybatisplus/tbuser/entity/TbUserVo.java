@@ -1,11 +1,8 @@
 package com.lidaxia.springbootmybatisplus.tbuser.entity;
 
-import cn.huanzi.qch.springbootmybatisplus.common.entity.PageCondition;
-import com.baomidou.mybatisplus.annotation.IdType;
 import java.util.Date;
-import com.baomidou.mybatisplus.annotation.TableId;
-import java.io.Serializable;
 
+import com.lidaxia.springbootmybatisplus.common.entity.PageCondition;
 import lombok.Data;
 
 /**

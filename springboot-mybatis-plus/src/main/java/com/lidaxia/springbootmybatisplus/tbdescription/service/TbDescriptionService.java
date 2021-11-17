@@ -1,8 +1,8 @@
 package com.lidaxia.springbootmybatisplus.tbdescription.service;
 
-import cn.huanzi.qch.springbootmybatisplus.common.service.CommonService;
-import cn.huanzi.qch.springbootmybatisplus.tbdescription.entity.TbDescription;
-import cn.huanzi.qch.springbootmybatisplus.tbdescription.entity.TbDescriptionVo;
+import com.lidaxia.springbootmybatisplus.common.service.CommonService;
+import com.lidaxia.springbootmybatisplus.tbdescription.entity.TbDescription;
+import com.lidaxia.springbootmybatisplus.tbdescription.entity.TbDescriptionVo;
 
 /**
  * <p>
@@ -12,6 +12,6 @@ import cn.huanzi.qch.springbootmybatisplus.tbdescription.entity.TbDescriptionVo;
  * @author huanzi-qch
  * @since 2020-08-25
  */
-public interface TbDescriptionService  extends CommonService<TbDescriptionVo,TbDescription> {
+public interface TbDescriptionService  extends CommonService<TbDescriptionVo, TbDescription> {
 
 }

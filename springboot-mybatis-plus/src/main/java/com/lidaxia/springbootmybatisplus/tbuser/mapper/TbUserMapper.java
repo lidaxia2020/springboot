@@ -1,7 +1,7 @@
 package com.lidaxia.springbootmybatisplus.tbuser.mapper;
 
-import cn.huanzi.qch.springbootmybatisplus.common.mapper.CommonMapper;
-import cn.huanzi.qch.springbootmybatisplus.tbuser.entity.TbUser;
+import com.lidaxia.springbootmybatisplus.common.mapper.CommonMapper;
+import com.lidaxia.springbootmybatisplus.tbuser.entity.TbUser;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

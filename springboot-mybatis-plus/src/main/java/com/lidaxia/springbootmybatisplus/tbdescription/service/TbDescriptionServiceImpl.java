@@ -1,9 +1,9 @@
 package com.lidaxia.springbootmybatisplus.tbdescription.service;
 
-import cn.huanzi.qch.springbootmybatisplus.common.service.CommonServiceImpl;
-import cn.huanzi.qch.springbootmybatisplus.tbdescription.entity.TbDescription;
-import cn.huanzi.qch.springbootmybatisplus.tbdescription.entity.TbDescriptionVo;
-import cn.huanzi.qch.springbootmybatisplus.tbdescription.mapper.TbDescriptionMapper;
+import com.lidaxia.springbootmybatisplus.common.service.CommonServiceImpl;
+import com.lidaxia.springbootmybatisplus.tbdescription.entity.TbDescription;
+import com.lidaxia.springbootmybatisplus.tbdescription.entity.TbDescriptionVo;
+import com.lidaxia.springbootmybatisplus.tbdescription.mapper.TbDescriptionMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
  * @since 2020-08-25
  */
 @Service
-public class TbDescriptionServiceImpl  extends CommonServiceImpl<TbDescriptionVo,TbDescription>  implements TbDescriptionService {
+public class TbDescriptionServiceImpl  extends CommonServiceImpl<TbDescriptionVo, TbDescription> implements TbDescriptionService {
 
     @Autowired
     private TbDescriptionMapper tbdescriptionMapper;
