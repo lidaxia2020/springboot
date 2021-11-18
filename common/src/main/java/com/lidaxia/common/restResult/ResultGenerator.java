@@ -26,6 +26,10 @@ public class ResultGenerator {
     }
 
 
+    public static RestResult genFailResult(ResultCode resultCode) {
+        return new RestResult(resultCode.getCode(), resultCode.getMessage());
+    }
+
 
     /**
      * 未验证error 构造器

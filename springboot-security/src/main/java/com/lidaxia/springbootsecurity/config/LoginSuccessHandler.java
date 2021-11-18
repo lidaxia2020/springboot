@@ -1,5 +1,9 @@
 package com.lidaxia.springbootsecurity.config;
 
+import com.lidaxia.common.restResult.RestResult;
+import com.lidaxia.common.restResult.ResultCode;
+import com.lidaxia.common.restResult.ResultGenerator;
+import com.lidaxia.common.utils.json.JacksonUtils;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
@@ -25,7 +29,8 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
         httpServletResponse.setCharacterEncoding("UTF-8");
         httpServletResponse.setContentType("application/json; charset=utf-8");
         PrintWriter out = httpServletResponse.getWriter();
-        out.print("{\"code\":\"300\",\"msg\":\"登录成功\",\"url\":\"/index\"}");
+        RestResult restResult = ResultGenerator.genSuccessResult();
+        out.print(JacksonUtils.obj2Json(restResult));
         out.flush();
         out.close();
     }

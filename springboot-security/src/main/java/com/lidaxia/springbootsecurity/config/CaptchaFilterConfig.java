@@ -1,5 +1,8 @@
 package com.lidaxia.springbootsecurity.config;
 
+import com.lidaxia.common.restResult.RestResult;
+import com.lidaxia.common.restResult.ResultCode;
+import com.lidaxia.common.restResult.ResultGenerator;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
@@ -39,6 +42,7 @@ public class CaptchaFilterConfig implements Filter {
                 response.setCharacterEncoding("UTF-8");
                 response.setContentType("application/json; charset=utf-8");
                 PrintWriter out = response.getWriter();
+                RestResult restResult = ResultGenerator.genFailResult(ResultCode.LOGIN_ERROR);
                 out.print("{\"code\":\"400\",\"msg\":\"验证码错误\"}");
                 out.flush();
                 out.close();

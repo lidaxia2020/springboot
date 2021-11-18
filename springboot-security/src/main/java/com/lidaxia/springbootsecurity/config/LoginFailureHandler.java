@@ -1,5 +1,9 @@
 package com.lidaxia.springbootsecurity.config;
 
+import com.lidaxia.common.restResult.RestResult;
+import com.lidaxia.common.restResult.ResultCode;
+import com.lidaxia.common.restResult.ResultGenerator;
+import com.lidaxia.common.utils.json.JacksonUtils;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.stereotype.Component;
@@ -24,7 +28,8 @@ public class LoginFailureHandler implements AuthenticationFailureHandler {
         httpServletResponse.setCharacterEncoding("UTF-8");
         httpServletResponse.setContentType("application/json; charset=utf-8");
         PrintWriter out = httpServletResponse.getWriter();
-        out.print("{\"code\":\"400\",\"msg\":\"用户名或密码错误\"}");
+        RestResult restResult = ResultGenerator.genFailResult(ResultCode.LOGIN_ERROR);
+        out.print(JacksonUtils.obj2Json(restResult));
         out.flush();
         out.close();
     }
