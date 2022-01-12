@@ -10,6 +10,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import javax.persistence.Id;
@@ -25,6 +26,7 @@ import java.util.Optional;
  * @desc
  * @date 2021/11/16 15:44（
  */
+@Service
 public class CommonServiceImpl<V, E, T> implements CommonService<V, E, T> {
 
     private Class<V> entityVoClass;//实体类Vo
