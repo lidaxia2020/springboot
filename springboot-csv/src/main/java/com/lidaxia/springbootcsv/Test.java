@@ -3,9 +3,9 @@ package com.lidaxia.springbootcsv;
 import lombok.Data;
 
 /**
- * @author lijiannan
+ * @author lidaxia
  * @desc
- * @date 2022/1/12 11:26（
+ * @date 2022/1/12 11:26
  */
 @Data
 public class Test {
